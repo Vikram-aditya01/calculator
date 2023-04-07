@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">CALCULATOR</h1>
+    
+    <div class="main">
+        <input type="text" class="display" id="inp">
+        <!-- main container of the calculator -->
+        <div class="row1"> 
+            <!-- first row of the calculator -->
+            <button class="AC" onclick="clr()" > AC </button>
+            <button class="AC" onclick="del()"> Clr </button>
+            <button class="AC" onclick="num(value)" value="%"> % </button>
+            <button class="div"onclick="num(value)" value="/"> / </button>
+        </div>
+        <div class="row2">
+            <!-- second row -->
+            <button class="seven"onclick="num(value)" value="7"> 7 </button>
+            <button class="seven"onclick="num(value)" value="8"> 8 </button>
+            <button class="seven"onclick="num(value)" value="9"> 9 </button>
+            <button class="div"onclick="num(value)" value="*"> * </button>
+        </div>
+        <div class="row3">
+            <!-- third row -->
+            <button class="seven"onclick="num(value)" value="4"> 4 </button>
+            <button class="seven"onclick="num(value)" value="5"> 5 </button>
+            <button class="seven"onclick="num(value)" value="6"> 6 </button>
+            <button class="div"onclick="num(value)" value="-"> - </button>
+        </div>
+        <div class="row4">
+            <!-- fourth row -->
+            <button class="seven"onclick="num(value)" value="1"> 1 </button>
+            <button class="seven"onclick="num(value)" value="2"> 2 </button>
+            <button class="seven"onclick="num(value)" value="3"> 3 </button>
+            <button class="div"onclick="num(value)" value="+"> + </button>
+        </div>
+        <div class="row5">
+            <!-- fifth row -->
+            <button class="zero"onclick="num(value)" value="0"> 0 </button>
+            <!-- <button class="AC"> 2 </button> -->
+            <button class="seven"onclick="num(value)" value="."> .</button>
+            <button class="div"onclick="equate()" value="="> = </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

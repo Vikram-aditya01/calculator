@@ -1,0 +1,30 @@
+.heading {
+  text-align: center;
+  color: coral;
+}
+.zero {
+  padding: 0 28px;
+  border-radius: 5px;
+}
+.clr {
+  padding: none;
+  border-radius: 5px;
+}
+.seven {
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.div {
+  background-color: darkorange;
+  border-radius: 5px;
+}
+.AC {
+  border-radius: 5px;
+}
+.display {
+  width: 120px;
+}
+.main {
+  width: 300px;
+  margin: auto;
+}
